@@ -2,4 +2,6 @@
     <string name="app_name">My Application</string>
     <string name="button">Button</string>
     <string name="show_toast">Show Toast</string>
+    <string name="btnSendMsgToNextActivity">Send Data To Next Activity</string>
+    <string name="btn_was_clicked">Button was clicked !</string>
 </resources>

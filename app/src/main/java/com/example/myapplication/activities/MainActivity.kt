@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         btnShowToast.setOnClickListener {
             Log.i(TAG,"Button was clicked !")
-            showToast("Button was clicked !", Toast.LENGTH_LONG)
+            showToast(resources.getString(R.string.btn_was_clicked), Toast.LENGTH_LONG)
 
         }
         btnSendMsgToNextActivity.setOnClickListener {
